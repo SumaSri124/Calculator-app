@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Checkout Code') {
             steps {
-                git 'https://github.com/SumaSri124/Calculator-app'
+                git branch: 'main', url: 'https://github.com/SumaSri124/Calculator-app'
             }
         }
 
